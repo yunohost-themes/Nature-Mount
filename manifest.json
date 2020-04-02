@@ -1,0 +1,20 @@
+{
+    "name": "nature-mount",
+    "id": "nature-mount",
+    "packaging_format": 1,
+    "description": {
+        "en": "An illustrated theme.",
+        "fr": "Un theme illustrer."
+    },
+    "version": "1.0",
+    #"url": "https://gitlab.com/stilobique/nature-mount",
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "Vaillant Aurelien",
+        "email": "aurelienvlt@free.fr"
+    },
+    "requirements": {
+        "yunohost": ">= 3.7.0.12",
+        "ssowat": ">= 3.7.0.12"
+    }
+}
