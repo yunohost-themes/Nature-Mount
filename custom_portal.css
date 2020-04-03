@@ -189,11 +189,58 @@ body.logged, .logged .content {
 				Pannel
 		------------------------ */
 .logged .ynh-wrapper {
-	width: 39%;
+	width: 30%;
 	background-image: none;
-	background-color: rgb(44, 43, 39);
-	opacity: 70%;
-	border-right: 1rem solid #6f5b50;
+	background-color: #4f4641;
+	border-right: 0.6em solid #6f5b50;
+}
+		/* ------------------------
+				User
+		------------------------ */
+.user-container {
+    display: block;
+    position: relative;
+    max-width: 100%;
+	margin: 70px 0 0;
+	padding: 16px 0;
+	background-color: #2c2b27;
+	color: #c2a593;
+}
+.user-container .user-username {
+	margin: 0;
+	min-height: 82px;
+}
+.user-container .user-fullname, .user-container .user-mail {
+	width: 50%;
+	font-size: 1em;
+	background-color: #4f4641;
+	text-align: center;
+	padding: 6px 0 0;
+}
+.user-container .user-fullname {
+	float: left;
+}
+.user-container .user-mail {
+	float: right;
+}
+.user-container .user-fullname:before {
+	content: "Bienvenue";
+}
+.user-container .user-username:before {
+    display: block;
+    position: relative;
+    float: left;
+    content: url("pictures/user.png");
+    width: 82px;
+	height: 82px;
+	size: 16px;
+}
+
+.icon-connexion {
+	color: #c2a593;
+}
+.icon-connexion::before {
+    content: url("pictures/logout.png");
 }
 		/* ------------------------
 				Setup Footer
@@ -203,7 +250,7 @@ body.logged, .logged .content {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	border-right: 1rem solid #6f5b50;
+	border-right: 0.6em solid #6f5b50;
 }
 .logged .footer nav {
 	width: 85%;
@@ -244,7 +291,7 @@ body.logged, .logged .content {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 60%;
+	width: 70%;
 	min-height: 100vh;
 }
 
