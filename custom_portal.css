@@ -179,7 +179,7 @@ body.logged, .logged .content {
 }
 
 .logged .user {
-	height: 80vh;
+	height: 92vh;
 }
 
 .logged .user-menu {
@@ -199,7 +199,7 @@ body.logged, .logged .content {
 				Setup Footer
 		------------------------ */
 .logged .footer {
-	height: 20vh;
+	height: 8vh;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -217,6 +217,7 @@ body.logged, .logged .content {
 	font-size: .9em;
 	text-decoration: none;
 	color: #c2a593;
+	letter-spacing: -0.05em;
 }
 .logged .footer a:hover {
 	text-decoration: underline;
