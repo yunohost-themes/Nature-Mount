@@ -4,6 +4,9 @@
  can be used to customize app tiles, buttons, etc...
 ===============================================================================
 */
+/* ------------------------
+		Global Main Setup
+------------------------ */
 @font-face {
 	font-family: 'NotoSans';
 	src: url("typo/NotoSans-Regular.ttf");
@@ -12,7 +15,16 @@
 	font-family: 'NotoSansBold';
 	src: url("typo/NotoSans-CondensedBold.ttf");
 }
-/* Global Main Setup */
+
+html {
+	min-height: 100vh;
+}
+/* ------------------------
+		Login Page 
+------------------------ */
+		/* ------------------------
+				Main Setup
+		------------------------ */
 * {
 	font-family: 'NotoSans';
 }
@@ -149,43 +161,54 @@ input[type="submit"] {
 }
 
 /* ------------------------
-		Logged Page 
+		Apps Tile Page 
 ------------------------ */
+		/* ------------------------
+				Main Setup
+		------------------------ */
+body.logged, .logged .content {
+	min-height: 100vh;
+}
 .logged #ynh-logo, .logged {
 	margin: 0;
 	padding: 0;
 }
+
 .logged .content {
 	max-width: 100%;
 }
 
-.logged .ynh-wrapper {
-	width: 39%;
-	max-height: 100vh;
-	background-image: none;
-	background-color: rgb(44, 43, 39);
-	opacity: 70%;
-	border-right: 1rem solid #6f5b50;
-}
-
 .logged .user {
-	max-height: 100%;
+	height: 80vh;
 }
 
 .logged .user-menu {
 	margin: 0;
 }
-
-/* ------------------------
-		Setup Footer
------------------------- */
+		/* ------------------------
+				Pannel
+		------------------------ */
+.logged .ynh-wrapper {
+	width: 39%;
+	background-image: none;
+	background-color: rgb(44, 43, 39);
+	opacity: 70%;
+	border-right: 1rem solid #6f5b50;
+}
+		/* ------------------------
+				Setup Footer
+		------------------------ */
 .logged .footer {
-	padding: 16px 0;
+	height: 20vh;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-right: 1rem solid #6f5b50;
 }
 .logged .footer nav {
 	width: 85%;
-	margin: 2px auto;
-	padding: 8px 0 0;
+	margin: 0 auto;
+	padding: 8px 0;
 	text-align: center;
 	border-top: 2px #c2a593 solid;
 }
@@ -212,9 +235,9 @@ input[type="submit"] {
     /* color: #666; */
 }
 
-/* ------------------------
-		Setup Apps Tule
------------------------- */
+		/* ------------------------
+				Setup Apps Tile
+		------------------------ */
 #apps {
 	float: right;
 	position: absolute;
@@ -255,16 +278,16 @@ input[type="submit"] {
 	color: #c2a593;
 	align: center;
 }
-#apps ul li a .first-letter {
+#apps ul li a .first-letter, #apps ul li a .name {
     overflow: hidden;
     position: absolute;
 	height: 1px;
 	width: 1px;
 }
 #apps ul li a:hover {
-	/* width: 68px; */
-	/* height: 68px; */
-	/* border: 30px solid #2c2b27; */
+	width: 68px;
+	height: 68px;
+	border: 30px solid #2c2b27;
 }
 
 /* #apps ul li a:hover .first-letter { */
