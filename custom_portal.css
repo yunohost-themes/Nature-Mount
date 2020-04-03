@@ -7,6 +7,8 @@
 @font-face {
 	font-family: 'NotoSans';
 	src: url("typo/NotoSans-Regular.ttf");
+}
+@font-face {
 	font-family: 'NotoSansBold';
 	src: url("typo/NotoSans-CondensedBold.ttf");
 }
@@ -35,12 +37,11 @@
 }
 
 .ynh-user-portal {
-  background-image: url("pictures/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
+	background-image: url("pictures/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
 }
-
 
 /* Login Rules */
 .messages, .login
@@ -92,7 +93,7 @@
 .login-form
 {
 	float: right;
-	margin-top: -256px;
+	margin: -273px 52px 0px 0px;
 	display: grid;
 	width: 400px;
 }
@@ -146,3 +147,141 @@ input[type="submit"] {
 	color: #c2a593;
 	text-align: left;
 }
+
+/* ------------------------
+		Logged Page 
+------------------------ */
+.logged #ynh-logo, .logged {
+	margin: 0;
+	padding: 0;
+}
+.logged .content {
+	max-width: 100%;
+}
+
+.logged .ynh-wrapper {
+	width: 39%;
+	max-height: 100vh;
+	background-image: none;
+	background-color: rgb(44, 43, 39);
+	opacity: 70%;
+	border-right: 1rem solid #6f5b50;
+}
+
+.logged .user {
+	max-height: 100%;
+}
+
+.logged .user-menu {
+	margin: 0;
+}
+
+/* ------------------------
+		Setup Footer
+------------------------ */
+.logged .footer {
+	padding: 16px 0;
+}
+.logged .footer nav {
+	width: 85%;
+	margin: 2px auto;
+	padding: 8px 0 0;
+	text-align: center;
+	border-top: 2px #c2a593 solid;
+}
+.logged .footer a {
+	font-family: 'NotoSans';
+	font-size: .9em;
+	text-decoration: none;
+	color: #c2a593;
+}
+.logged .footer a:hover {
+	text-decoration: underline;
+}
+
+.logged .footer a:first-child::before {
+	content: none;
+}
+
+.logged .footer a::before {
+    content: "•";
+	font-size: 1.3em;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0.5em 0 0.25em;
+    /* color: #666; */
+}
+
+/* ------------------------
+		Setup Apps Tule
+------------------------ */
+#apps {
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60%;
+	min-height: 100vh;
+}
+
+#apps ul {
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+#apps ul li {
+	display: inline-block;
+	margin: 1em;
+	background: rgb(73,70,63);
+	background: linear-gradient(0deg, rgba(73,70,63,1) 0%, rgba(87,90,89,1) 100%);
+	box-shadow: 6px 6px 6px #101c16;
+	border: 0px solid #4f4641;
+	border-radius: 5px 5px 0 0;
+	box-sizing: border-box;
+}
+#apps ul li:hover {
+	transform: rotate(5deg); 
+}
+#apps ul li a {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 128px;
+	height: 98px;
+	border-bottom: 30px solid #2c2b27;
+	padding: 0.2em;
+	color: #c2a593;
+	align: center;
+}
+#apps ul li a .first-letter {
+    overflow: hidden;
+    position: absolute;
+	height: 1px;
+	width: 1px;
+}
+#apps ul li a:hover {
+	/* width: 68px; */
+	/* height: 68px; */
+	/* border: 30px solid #2c2b27; */
+}
+
+/* #apps ul li a:hover .first-letter { */
+    /* overflow: visible; */
+    /* position: relative; */
+/* } */
+
+/* #apps ul li a:hover .name { */
+    /* overflow: hidden; */
+    /* position: absolute; */
+	/* height: 1px; */
+	/* width: 1px; */
+/* } */
+/* #apps ul li a .name { */
+	/* display: block; */
+	/* position: absolute; */
+	/* width: 100%; */
+	/* margin: 0 auto; */
+	/* bottom: 0; */
+/* } */
