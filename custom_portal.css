@@ -123,7 +123,7 @@ body {
 .login-form
 {
 	float: right;
-	margin: -273px 52px 0 0;
+	margin: 0 52px 0 0;
 	display: grid;
 	max-width: 400px;
 }
