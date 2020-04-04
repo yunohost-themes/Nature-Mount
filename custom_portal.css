@@ -76,6 +76,8 @@ body {
 	background-image: url("pictures/login-logo.jpg");
 	background-repeat: no-repeat;
 	background-position-x: 50px;
+	margin: 0;
+	position: initial;
 }
 
 .messages
