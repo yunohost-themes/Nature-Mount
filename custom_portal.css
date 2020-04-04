@@ -44,7 +44,8 @@ body {
 				Main Setup
 		------------------------ */
 #ynh-logo {
-	margin-top: 20%;
+	/*margin-top: 20%;*/
+	margin-top: 30vh;
 	width: 0;
 	height: 0;
 }
@@ -79,7 +80,7 @@ body {
 	margin: 0;
 	position: initial;
 }
-.ynh-wrapper::after {
+.ynh-wrapper::after, .ynh-wrapper::before {
 	content: none;
 }
 
