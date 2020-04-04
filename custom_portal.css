@@ -79,6 +79,9 @@ body {
 	margin: 0;
 	position: initial;
 }
+.ynh-wrapper::after {
+	content: none;
+}
 
 .messages
 {
