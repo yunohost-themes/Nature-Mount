@@ -66,14 +66,12 @@ body {
 		/* ------------------------
 				Windows Login
 		------------------------ */
-.messages, .login
-{
+.messages, .login {
 	width: 800px;
 	padding: 0 20px;
 }
 
-.ynh-wrapper
-{
+.ynh-wrapper {
 	background-image: url("pictures/login-logo.jpg");
 	background-repeat: no-repeat;
 	background-position-x: 50px;
@@ -84,9 +82,7 @@ body {
 	content: none;
 }
 
-.messages
-{
-	/*float: left;*/
+.messages {
 	position: absolute;
 	border-radius: 0 0 15px 15px;
 	margin-top: 256px;
@@ -96,11 +92,9 @@ body {
 	/* Typo Rules */
 	font-family: 'NotoSansBold', serif;
 	font-size: 1.8em;
-	/*text-transform: capitalize;*/
 	font-variant: small-caps;
 	text-align: center;
 	
-	/* Drop Shadow */
 	box-shadow:  8px 8px 8px rgb(16, 28, 22);
 }
 
@@ -108,27 +102,23 @@ body {
 	background-color: #5d5446;
 }
 
-.login
-{
+.login {
 	background-color: #2c2b27;
 	height: 256px;
 	border-radius: 15px 15px 0 0;
 	box-shadow:  8px 8px 8px rgb(16, 28, 22);
 }
 
-.icon
-{
+.icon {
 	color: red;
 }
-.login-form
-{
+.login-form {
 	width: 50%;
 	margin: 0 5% 0 45%;
 	height: 100%;
 }
 
-.form-group
-{
+.form-group {
 	display: grid;
 	grid-template-columns: 52px 90%;
 	/* width: 100%; */
@@ -137,8 +127,7 @@ body {
 	overflow: hidden;
 }
 
-.form-text
-{
+.form-text {
 	width: 90%;
 	height: 52px;
 	padding: 0 5%;
@@ -148,8 +137,7 @@ body {
 	color: #c2a593;
 }
 
-.icon-user, .icon-lock
-{
+.icon-user, .icon-lock {
 	width: 52px;
 	height: 52px;
 }	
