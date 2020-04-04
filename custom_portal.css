@@ -19,6 +19,9 @@
 html {
 	min-height: 100vh;
 }
+body {
+	line-height: 1;
+}
 * {
 	font-family: "NotoSans", serif;
 }
@@ -49,6 +52,7 @@ html {
 .content {
 	max-width: 800px;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .ynh-user-portal {
@@ -77,10 +81,9 @@ html {
 .messages
 {
 	float: left;
-	background-color: #5d5446;
 	border-radius: 0 0 15px 15px;
 	margin-top: 256px;
-	
+	max-width: none;
 	/* height: 312px; */
 	color : #c2a593;
 	
@@ -93,6 +96,10 @@ html {
 	
 	/* Drop Shadow */
 	box-shadow:  8px 8px 8px rgb(16, 28, 22);
+}
+
+.messages.info {
+	background-color: #5d5446;
 }
 
 .login
