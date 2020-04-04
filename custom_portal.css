@@ -8,7 +8,7 @@
 		Global Main Setup
 ------------------------ */
 @font-face {
-	font-family: 'NotoSans';
+	font-family: "NotoSans";
 	src: url("typo/NotoSans-Regular.ttf");
 }
 @font-face {
@@ -20,7 +20,7 @@ html {
 	min-height: 100vh;
 }
 * {
-	font-family: 'NotoSans';
+	font-family: "NotoSans", serif;
 }
 /* ------------------------
 		Login Page 
@@ -78,14 +78,14 @@ html {
 {
 	float: left;
 	background-color: #5d5446;
-	border-radius: 0px 0px 15px 15px;
+	border-radius: 0 0 15px 15px;
 	margin-top: 256px;
 	
 	/* height: 312px; */
 	color : #c2a593;
 	
 	/* Typo Rules */
-	font-family: 'NotoSansBold';
+	font-family: 'NotoSansBold', serif;
 	font-size: 1.8em;
 	/*text-transform: capitalize;*/
 	font-variant: small-caps;
@@ -99,7 +99,7 @@ html {
 {
 	background-color: #2c2b27;
 	height: 256px;
-	border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0 0;
 	box-shadow:  8px 8px 8px rgb(16, 28, 22);
 }
 
@@ -110,7 +110,7 @@ html {
 .login-form
 {
 	float: right;
-	margin: -273px 52px 0px 0px;
+	margin: -273px 52px 0 0;
 	display: grid;
 	max-width: 400px;
 }
@@ -131,7 +131,7 @@ html {
 	height: 52px;
 	padding: 0 5%;
 	border: 0;
-	font-family: 'NotoSansBold';
+	font-family: 'NotoSansBold', serif;
 	background-color: #5d5446;
 	color: #c2a593;
 }
@@ -153,14 +153,14 @@ input[type="submit"] {
 	height: 52px;
 	margin: 7px 0;
 	padding: 0 0 0 70px;
-	border: 0px;
+	border: 0;
 	background-image: url("pictures/picto.jpg");
 	background-position: 0 52px;
 	background-repeat: repeat-y;
 	background-color: #5d5446;
 
 	/* Typo Setup */
-	font-family: 'NotoSansBold';
+	font-family: 'NotoSansBold', serif;
 	color: #c2a593;
 	text-align: left;
 }
@@ -265,7 +265,7 @@ body.logged, .logged .content {
 	border-top: 2px #c2a593 solid;
 }
 .logged .footer a {
-	font-family: 'NotoSans';
+	font-family: 'NotoSans', serif;
 	font-size: .9em;
 	text-decoration: none;
 	color: #c2a593;
@@ -312,7 +312,7 @@ body.logged, .logged .content {
 	background: rgb(73,70,63);
 	background: linear-gradient(0deg, rgba(73,70,63,1) 0%, rgba(87,90,89,1) 100%);
 	box-shadow: 6px 6px 6px #101c16;
-	border: 0px solid #4f4641;
+	border: 0 solid #4f4641;
 	border-radius: 5px 5px 0 0;
 	box-sizing: border-box;
 }
@@ -329,7 +329,6 @@ body.logged, .logged .content {
 	border-bottom: 30px solid #2c2b27;
 	padding: 0.2em;
 	color: #c2a593;
-	align: center;
 }
 #apps ul li a .first-letter, #apps ul li a .name {
     overflow: hidden;
