@@ -86,7 +86,8 @@ body {
 
 .messages
 {
-	float: left;
+	/*float: left;*/
+	position: absolute;
 	border-radius: 0 0 15px 15px;
 	margin-top: 256px;
 	max-width: none;
