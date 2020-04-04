@@ -6,8 +6,8 @@
         "en": "An illustrated theme.",
         "fr": "Un theme illustrer."
     },
-    "version": "1.0",
-    #"url": "https://gitlab.com/stilobique/nature-mount",
+    "version": "0.8",
+    "url": "https://gitlab.com/stilobique/nature-mount",
     "license": "AGPL-3.0",
     "maintainer": {
         "name": "Vaillant Aurelien",
