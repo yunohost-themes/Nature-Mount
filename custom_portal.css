@@ -324,6 +324,7 @@ body.logged, .logged .content {
 	right: 0;
 	width: 70%;
 	min-height: 100vh;
+	margin: 0;
 }
 
 #apps ul {
