@@ -144,13 +144,16 @@ body {
 	content: none;
 }
 
-.form-text {
+.login-form .form-text {
 	width: 90%;
 	height: 52px;
 	padding: 0 5%;
 	border: 0;
 	font-family: 'NotoSansBold', serif;
 	background-color: #5d5446;
+	color: #c2a593;
+}
+.login-form .form-text::placeholder {
 	color: #c2a593;
 }
 
