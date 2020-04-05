@@ -111,9 +111,6 @@ body {
 	border-bottom: 8px solid #5d5446;
 }
 
-.icon {
-	color: red;
-}
 .login-form {
 	width: 50%;
 	margin: 0 5% 0 45%;
@@ -214,6 +211,8 @@ body.logged, .logged .content {
 
 .logged .user-menu {
 	margin: 0;
+	padding: 0 16px 0;
+	color: #c2a593;
 }
 		/* ------------------------
 				Pannel
