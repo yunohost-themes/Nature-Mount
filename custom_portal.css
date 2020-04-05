@@ -274,6 +274,9 @@ body.logged, .logged .content {
 }
 .user-container .user-mail {
 	float: right;
+	color: #c2a593;
+	margin: 0;
+	padding: 0 10%;
 }
 .user-container .user-fullname:before {
 	content: "Bienvenue ";
