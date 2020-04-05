@@ -270,11 +270,14 @@ body.logged, .logged .content {
 	size: 16px;
 }
 
+		/* ------------------------
+				Logout Icon
+		------------------------ */
 .icon-connexion {
 	color: #c2a593;
 }
 .icon-connexion::before {
-    content: url("pictures/logout.png");
+    color: #c2a593;
 }
 		/* ------------------------
 				Setup Footer
