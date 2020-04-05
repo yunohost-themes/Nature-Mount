@@ -100,6 +100,7 @@ body {
 
 .messages.info {
 	background-color: #5d5446;
+	padding: 8px 0;
 }
 
 .login {
