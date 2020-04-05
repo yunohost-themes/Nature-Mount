@@ -123,7 +123,8 @@ body {
 	margin: 8px 0;
 	padding: 0;
 }
-.form-group {
+
+.login-form .form-group {
 	display: grid;
 	grid-template-columns: 52px 90%;
 	/* width: 100%; */
@@ -131,6 +132,11 @@ body {
 	margin: 8px 0;
 	padding: 0;
 	overflow: hidden;
+
+	/* Fix Ynh Portal */
+	position: inherit;
+	/*margin-bottom: 0;*/
+	background: none;
 }
 
 .form-text {
