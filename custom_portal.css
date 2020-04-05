@@ -196,6 +196,7 @@ body.logged, .logged .content {
 .logged #ynh-logo, .logged {
 	margin: 0;
 	padding: 0;
+	position: unset;
 }
 
 .logged .content {
