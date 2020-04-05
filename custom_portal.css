@@ -270,6 +270,9 @@ body.logged, .logged .content {
 }
 .user-container .user-fullname {
 	float: left;
+	display: block;
+	text-align: left;
+	padding: 0 10%;
 }
 .user-container .user-mail {
 	float: right;
