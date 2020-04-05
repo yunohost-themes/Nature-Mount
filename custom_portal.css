@@ -243,12 +243,14 @@ body.logged, .logged .content {
 	content: none;
 }
 .user-container .user-username {
-	margin: 0;
+	display: inline-block;
+	width: 80%;
+	margin: 0 10%;
 	min-height: 82px;
 	font-size: 2.6em;
 }
 .user-container .user-fullname, .user-container .user-mail {
-	width: 50%;
+	display: inline;
 	font-size: 1em;
 	background-color: #4f4641;
 	text-align: center;
