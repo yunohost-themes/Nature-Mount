@@ -258,7 +258,7 @@ body.logged, .logged .content {
 	float: right;
 }
 .user-container .user-fullname:before {
-	content: "Bienvenue";
+	content: "Bienvenue ";
 }
 .user-container .user-username:before {
     display: block;
