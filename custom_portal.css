@@ -209,12 +209,15 @@ body.logged, .logged .content {
 	height: 92vh;
 }
 
+.logged .user-menu {
+	display: inline;
+}
 .logged .user-menu li {
 	text-align: right;
 }
 .logged .user-menu a {
 	margin: 0;
-	padding: 0 16px 0;
+	padding: 8px 16px;
 	color: #c2a593;
 }
 		/* ------------------------
