@@ -138,6 +138,9 @@ body {
 	width: 0;
 	height: 0;
 }
+.icon-user::before {
+	content: none;
+}
 
 .form-text {
 	width: 90%;
