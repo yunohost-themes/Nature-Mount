@@ -138,7 +138,7 @@ body {
 	width: 0;
 	height: 0;
 }
-.icon-user::before {
+.icon-user::before, .icon-lock::before {
 	content: none;
 }
 
