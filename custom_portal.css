@@ -100,7 +100,7 @@ body {
 
 .messages.info {
 	background-color: #5d5446;
-	padding: 8px 0;
+	padding: 0 0 8px 0;
 }
 
 .login {
@@ -108,6 +108,7 @@ body {
 	height: 256px;
 	border-radius: 15px 15px 0 0;
 	box-shadow:  8px 8px 8px rgb(16, 28, 22);
+	border-bottom: 8px solid #5d5446;
 }
 
 .icon {
