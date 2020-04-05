@@ -204,6 +204,7 @@ body.logged, .logged .content {
 	max-height: 0;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 .logged .user {
 	height: 92vh;
@@ -240,7 +241,7 @@ body.logged, .logged .content {
     max-width: 100%;
 	line-height: 2.6em;
 	margin: 0;
-	padding: 16px 0;
+	padding: 16px 0 0;
 	background-color: #2c2b27;
 	color: #c2a593;
 	text-align: center;
@@ -277,6 +278,7 @@ body.logged, .logged .content {
 	color: #c2a593;
 	margin: 0;
 	padding: 0 10%;
+	text-align: right;
 }
 .user-container .user-fullname:before {
 	content: "Bienvenue ";
