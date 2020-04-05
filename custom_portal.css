@@ -242,6 +242,9 @@ body.logged, .logged .content {
 .user-container::before{
 	content: none;
 }
+.user-container::before {
+	color: inherit;
+}
 .user-container .user-username {
 	display: inline-block;
 	width: 80%;
