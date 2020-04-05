@@ -264,12 +264,10 @@ body.logged, .logged .content {
 .user-container .user-fullname, .user-container .user-mail {
 	display: inline;
 	font-size: 1em;
-	background-color: #4f4641;
 	text-align: center;
 	padding: 6px 0 0;
 }
 .user-container .user-fullname {
-	float: left;
 	display: block;
 	text-align: left;
 	padding: 0 10%;
