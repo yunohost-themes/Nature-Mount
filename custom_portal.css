@@ -237,6 +237,9 @@ body.logged, .logged .content {
 	background-color: #2c2b27;
 	color: #c2a593;
 }
+.user-container::before{
+	content: none;
+}
 .user-container .user-username {
 	margin: 0;
 	min-height: 82px;
