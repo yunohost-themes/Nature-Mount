@@ -413,14 +413,15 @@ body.logged, .logged .content {
 	padding-bottom: 0;
 }
 
-.listing-apps a:hover .first-letter {
-	display: inline;
-	position: relative;
+.listing-apps a .first-letter {
+	font-family: 'NotoSansBold', serif;
 }
 
 .listing-apps a:hover .first-letter {
 	width: 100%;
 	height: 100%;
+		display: inline;
+	position: relative;
 }
 
 /* ------------------------
