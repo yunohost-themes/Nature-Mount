@@ -384,7 +384,7 @@ body.logged, .logged .content {
 	border: 30px solid #2c2b27;
 	transform: rotate(7deg);
 }
-.listing-apps a::after, .listing-apps a::before, .listing-apps a:hover::after, .listing-apps a:hover::before, .listing-apps a .first-letter {
+.listing-apps a::after, .listing-apps a::before, .listing-apps a:hover::after, .listing-apps a:hover::before {
 	width: 0;
 	height: 0;
 	position: absolute;
@@ -415,15 +415,15 @@ body.logged, .logged .content {
 
 .listing-apps a .first-letter {
 	font-family: 'NotoSansBold', serif;
+	line-height: 2em;
 }
 
 .listing-apps a:hover .first-letter {
 	width: 100%;
 	height: 100%;
-		display: inline;
+	display: inline;
 	position: relative;
 }
-
 /* ------------------------
 		Page Edit User
 ------------------------ */
