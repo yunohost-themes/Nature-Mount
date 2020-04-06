@@ -116,7 +116,7 @@ body {
 	margin: 0 5% 0 45%;
 	height: 100%;
 	display: grid;
-	align-items: center;
+	align-content: center;
 }
 .login-form .btn {
 	height: 52px;
@@ -428,9 +428,21 @@ body.logged, .logged .content {
 }
 .listing-apps a:hover .name {
 	height: 0;
+	line-height: 0;
 	padding-top: 0;
 	padding-bottom: 0;
+	animation: nameopa 0.3s;
 }
+@keyframes nameopa {
+	from {
+		height: auto;
+		line-height: inherit;
+		padding-top: 6px;
+		padding-bottom: 6px;}
+	to { height:0;
+		line-height: 0;
+		padding-top: 0;
+		padding-bottom: 0;}  }
 
 .listing-apps a .first-letter {
 	font-family: 'NotoSansBold', serif;
@@ -443,7 +455,11 @@ body.logged, .logged .content {
 	display: inline;
 	position: relative;
 	top: -30px;
+	animation: movetop 0.3s;
 }
+@keyframes movetop {
+	from { top: 0; }
+	to { top:-30px; }  }
 /* ------------------------
 		Page Edit User
 ------------------------ */
