@@ -442,6 +442,7 @@ body.logged, .logged .content {
 	height: 100%;
 	display: inline;
 	position: relative;
+	top: -30px;
 }
 /* ------------------------
 		Page Edit User
