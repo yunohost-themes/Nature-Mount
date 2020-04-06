@@ -171,7 +171,7 @@ body {
 input[type="submit"] {
 	border: 0;
 	background-image: url("pictures/picto.jpg");
-	background-position: 0 52px;
+	background-position: 0 -102px;
 	background-repeat: repeat-y;
 	background-color: #5d5446;
 
@@ -339,7 +339,7 @@ body.logged, .logged .content {
 	border-top: 2px #c2a593 solid;
 }
 .logged .footer a {
-	font-family: 'NotoSans', serif;
+	font-family: 'NotoSansBold', serif;
 	font-size: .9em;
 	text-decoration: none;
 	color: #c2a593;
@@ -484,6 +484,7 @@ body.logged, .logged .content {
 	color: #c2a593;
 	background: url("pictures/picto.jpg") no-repeat 0 -156px #5d5446;
 	padding-left: 60px;
+	font-family: 'NotoSansBold', serif;
 }
 
 .edit .large-btn {
