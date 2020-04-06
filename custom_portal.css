@@ -225,7 +225,7 @@ body.logged, .logged .content {
 		/* ------------------------
 				Pannel
 		------------------------ */
-.logged .ynh-wrapper {
+.logged .user, .logged .footer {
 	width: 30%;
 	background-image: none;
 	background-color: #4f4641;
