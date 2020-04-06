@@ -190,7 +190,7 @@ input[type="submit"] {
 body.logged, .logged .content {
 	min-height: 100vh;
 }
-.logged #ynh-logo, .logged {
+.logged {
 	margin: 0;
 	padding: 0;
 	position: unset;
@@ -292,7 +292,26 @@ body.logged, .logged .content {
 	height: 82px;
 	size: 16px;
 }
+		/* ------------------------
+				Yunohost Icon
+		------------------------ */
+.logged #ynh-logo {
+	margin: 0 0 8vh;
+	padding: 0 108px 0 0;
+	width: 25%;
+	height: 85px;
+	line-height: 85px;
+	left: 0;
+	text-align: right;
+	background-position: right;
+	color: #c2a593;
+	font-variant: small-caps;
+	font-family: 'NotoSansBold', serif;
 
+}
+.logged #ynh-logo:before {
+	content: "Powered by ";
+}
 		/* ------------------------
 				Logout Icon
 		------------------------ */
