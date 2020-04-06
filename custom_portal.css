@@ -474,6 +474,18 @@ body.logged, .logged .content {
 	right: 5%;
 }
 
+.logged .ynh-wrapper {
+	background-image: none;
+}
 .user-container-edit::after {
 	content: none;
+}
+.form-text {
+	color: #c2a593;
+	background: url("pictures/picto.jpg") no-repeat 0 -156px #5d5446;
+	padding-left: 60px;
+}
+
+.edit .large-btn {
+	background-image: none;
 }
