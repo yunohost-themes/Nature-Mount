@@ -380,8 +380,9 @@ body.logged, .logged .content {
 .listing-apps a:hover {
 	top: 0;
 	left: 0;
+	/*border: 30px solid #2c2b27;*/
 }
-.listing-apps a::after, .listing-apps a::before, .listing-apps a:hover::after, .listing-apps a:hover::before {
+.listing-apps a::after, .listing-apps a::before, .listing-apps a:hover::after, .listing-apps a:hover::before, .listing-apps a .first-letter {
 	width: 0;
 	height: 0;
 	position: absolute;
@@ -389,18 +390,22 @@ body.logged, .logged .content {
 	left: 0;
 	box-shadow: none;
 	content: none;
+	overflow: hidden;
 }
 
-/*	display: block;*/
-/*	position: relative;*/
-/*	top: 0;*/
-/*	left: 0;*/
-/*	width: 128px;*/
-/*	height: 98px;*/
-/*	border-bottom: 30px solid #2c2b27;*/
-/*	padding: 0.2em;*/
-/*	color: #c2a593;*/
-/*}*/
+.listing-apps a .name {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 6px 5%;
+	text-align: left;
+	background: #2c2b27;
+	color: #c2a593;
+	line-height: 1.4em;
+}
+
 /*#apps ul li a .first-letter, #apps ul li a .name {*/
 /*    overflow: hidden;*/
 /*    position: absolute;*/
