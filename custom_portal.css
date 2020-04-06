@@ -398,21 +398,16 @@ body.logged, .logged .content {
 	border: 30px solid #2c2b27;
 }
 
-/* #apps ul li a:hover .first-letter { */
-    /* overflow: visible; */
-    /* position: relative; */
-/* } */
-
-/* #apps ul li a:hover .name { */
-    /* overflow: hidden; */
-    /* position: absolute; */
-	/* height: 1px; */
-	/* width: 1px; */
-/* } */
-/* #apps ul li a .name { */
-	/* display: block; */
-	/* position: absolute; */
-	/* width: 100%; */
-	/* margin: 0 auto; */
-	/* bottom: 0; */
-/* } */
+/* ------------------------
+		Page Edit User
+------------------------ */
+		/* ------------------------
+				Main Setup
+		------------------------ */
+.logged .edit {
+	float: right;
+	width: 60%;
+	position: absolute;
+	top: 0;
+	right: 5%;
+}
