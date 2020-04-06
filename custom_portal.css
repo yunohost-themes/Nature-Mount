@@ -499,5 +499,8 @@ body.logged, .logged .content {
 	font-family: "NotoSansBold", serif;
 }
 .btn-group .btn:hover {
-	background-color: #101c16;
+	background-color: #2c2b27;
+}
+.form-group .control-label {
+	padding: 0.6em 1em;
 }
