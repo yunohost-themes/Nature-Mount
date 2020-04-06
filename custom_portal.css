@@ -466,7 +466,7 @@ body.logged, .logged .content {
 		/* ------------------------
 				Main Setup
 		------------------------ */
-.logged .edit {
+.logged .edit, .logged .password {
 	float: right;
 	width: 60%;
 	position: absolute;
@@ -489,7 +489,7 @@ body.logged, .logged .content {
 .form-text:hover {
 	background-color: #2c2b27;
 }
-.edit .large-btn {
+.edit .large-btn, input[value="OK"] {
 	background-image: none;
 }
 .edit .large-btn:hover {
