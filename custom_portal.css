@@ -8,7 +8,7 @@
 		Global Main Setup
 ------------------------ */
 @font-face {
-	font-family: "NotoSans";
+	font-family: "Noto Sans";
 	src: url("typo/NotoSans-Regular.ttf");
 }
 @font-face {
@@ -23,7 +23,7 @@ body {
 	line-height: 1;
 }
 * {
-	font-family: "NotoSans", serif;
+	font-family: "Noto Sans", serif;
 }
 /* ------------------------
 		Login Page 
@@ -486,7 +486,18 @@ body.logged, .logged .content {
 	padding-left: 60px;
 	font-family: 'NotoSansBold', serif;
 }
-
+.form-text:hover {
+	background-color: #2c2b27;
+}
 .edit .large-btn {
 	background-image: none;
+}
+.edit .large-btn:hover {
+	background-color: white;
+}
+.btn {
+	font-family: "NotoSansBold", serif;
+}
+.btn-group .btn:hover {
+	background-color: #101c16;
 }
