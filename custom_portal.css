@@ -356,26 +356,41 @@ body.logged, .logged .content {
 	margin: 0;
 }
 
-/*#apps ul {*/
-/*	width: 95%;*/
-/*	height: 100%;*/
-/*	margin: 0 auto;*/
-/*	padding: 0;*/
-/*}*/
-/*#apps ul li {*/
-/*	display: inline-block;*/
-/*	margin: 1em;*/
-/*	background: rgb(73,70,63);*/
-/*	background: linear-gradient(0deg, rgba(73,70,63,1) 0%, rgba(87,90,89,1) 100%);*/
-/*	box-shadow: 6px 6px 6px #101c16;*/
-/*	border: 0 solid #4f4641;*/
-/*	border-radius: 5px 5px 0 0;*/
-/*	box-sizing: border-box;*/
-/*}*/
+#apps ul {
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10% 0;
+	letter-spacing: initial;
+	text-align: center;
+}
+#apps ul li {
+	margin: 1em;
+	box-shadow: 6px 6px 6px #101c16;
+}
 /*#apps ul li:hover {*/
 /*	transform: rotate(5deg); */
 /*}*/
-/*#apps ul li a {*/
+#apps ul li a {
+	background: rgb(73,70,63);
+	background: linear-gradient(0deg, rgba(73,70,63,1) 0%, rgba(87,90,89,1) 100%);
+	border-radius: 5px 5px 0 0;
+}
+
+.listing-apps a:hover {
+	top: 0;
+	left: 0;
+}
+.listing-apps a::after, .listing-apps a::before, .listing-apps a:hover::after, .listing-apps a:hover::before {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: none;
+	content: none;
+}
+
 /*	display: block;*/
 /*	position: relative;*/
 /*	top: 0;*/
