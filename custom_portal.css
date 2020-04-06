@@ -16,6 +16,11 @@
 	src: url("typo/NotoSans-CondensedBold.ttf");
 }
 
+@font-face {
+	font-family: "Icon Awesome";
+	src: url("typo/FontAwesome.ttf");
+}
+
 html {
 	min-height: 100vh;
 }
@@ -252,15 +257,23 @@ body.logged, .logged .content {
 .user-container::before {
 	color: inherit;
 }
-.user-container .user-username {
+.user-container .user-username, .user-container-edit .user-username {
 	display: inline-block;
 	width: 80%;
 	margin: 0 10%;
 	min-height: 82px;
 	font-size: 2.6em;
+	text-align: left;
 }
-.user-container .user-username::after {
+.user-container .user-username::after, .user-container-edit .user-username::after {
+	font-family: "Icon Awesome", serif;
+	content: "\f044";
 	color: #c2a593;
+	font-size: 0.8em;
+    width: 1em;
+    height: 1em;
+    margin-left: .5em;
+	vertical-align: baseline;
 }
 .user-container .user-fullname, .user-container .user-mail {
 	display: inline;
@@ -503,4 +516,7 @@ body.logged, .logged .content {
 }
 .form-group .control-label {
 	padding: 0.6em 1em;
+}
+.user-container-edit .user-username::after {
+	content: "\f00d";
 }
