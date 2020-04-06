@@ -473,3 +473,7 @@ body.logged, .logged .content {
 	top: 0;
 	right: 5%;
 }
+
+.user-container-edit::after {
+	content: none;
+}
