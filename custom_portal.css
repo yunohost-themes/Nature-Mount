@@ -133,39 +133,41 @@ body {
 }
 
 .login-form .form-group {
-	display: grid;
-	grid-template-columns: 52px 90%;
+	display: inline-block;
 	height: 52px;
 	margin: 8px 0;
 	padding: 0;
 	overflow: hidden;
-	position: inherit; /* Fix Ynh Portal */
+	position: relative; /* Fix Ynh Portal */
 	background: none; /* Fix Ynh Portal */
+}
+.login-form .form-text, .icon-user, .icon-lock {
+	display: inline-block !important;
+	height: 100%;
 }
 .login-form label::before {
 	width: 0;
 	height: 0;
 }
-.icon-user::before, .icon-lock::before {
-	content: none;
-}
+.icon-user::before, .icon-lock::before { content: none; }
 
 .login-form .form-text {
-	height: 52px;
+	width: calc(100% - 52px);
 	padding: 0 5%;
 	border: 0;
 	font-family: 'NotoSansBold', serif;
 	background-color: #5d5446;
 	color: #c2a593;
+	position: relative;
 }
 .login-form .form-text::placeholder {
 	color: #c2a593;
 }
 
 .icon-user, .icon-lock {
+	float: left;
 	width: 52px;
-	height: 52px;
-}	
+}
 .icon-user {
 	background-image: url("pictures/picto.jpg");
 }
